@@ -24,9 +24,9 @@ namespace Task_6___חלק_ב
             Description = description;
             Price = price;
         }
-        public override string ToString()
-        {
-            return $"Code:{ItemCode} Name :{Name} Description: {Description} Price: {Price}";
-        }
+        //public override string ToString()
+        //{
+        //    return $"Code:{ItemCode} Name :{Name} Description: {Description} Price: {Price}";
+        //}
     }
 }

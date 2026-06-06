@@ -17,11 +17,12 @@ namespace Task_6___חלק_ב
 
         public DataTable KnightTable()
         {
+            return dt;
 
         }
         public DataTable FilterByAbovePrice(int price)
         {
-
+            return dt;
         }
 
         public DataTable InsertItem(Item item)
@@ -37,7 +38,8 @@ namespace Task_6___חלק_ב
 
         public DataTable Update (DataTable table)
         {
-            
+            db.UpdateDB(table);
+            return dt;
         }
     }
 }

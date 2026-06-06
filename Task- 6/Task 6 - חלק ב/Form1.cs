@@ -16,9 +16,21 @@ namespace Task_6___חלק_ב
 
         private void btnInsert_Click(object sender, EventArgs e)
         {
-            store.InsertItem(txtName.Text , txtDescription.Text , int.Parse(txtPrice.Text));
+            Item item = new Item(txtName.Text, txtDescription.Text, int.Parse(txtPrice.Text));
+            store.InsertItem(item);
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            dataGridView.DataSource = db.RefreshTabel();
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+           
         }
     }
-    }
 }
+
 
