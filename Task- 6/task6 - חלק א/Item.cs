@@ -27,7 +27,7 @@ namespace task6___חלק_א
         }
         public override string ToString()
         {
-            return $"Code:{ItemCode} Name :{Name} Description: {Description} Price: {Price}";
+            return $"Code:{ItemCode}  , Name :{Name} , Description: {Description} , Price: {Price}";
         }
 
     }

@@ -9,7 +9,7 @@
                 s.AddItem(new Item("milkey", "Milky is popular in Israel", 6));
                 s.AddItem(new Item("cottage", "Basic dairy product", 4));
                 Console.WriteLine(s);
-                s.DeleteItem(9);
+                s.DeleteItem(1);
                 Console.WriteLine(s);
         }
     }

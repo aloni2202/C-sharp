@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dataGridView1 = new DataGridView();
+            dvgItems = new DataGridView();
             txtMinPrice = new TextBox();
             btnFilter = new Button();
             btnCancelFilter = new Button();
@@ -37,23 +37,23 @@
             txtDelete = new TextBox();
             gbDeleteItem = new GroupBox();
             gbInsertItem = new GroupBox();
+            txtPrice = new TextBox();
+            txtDescription = new TextBox();
             txtName = new TextBox();
             btnInsert = new Button();
-            txtDescription = new TextBox();
-            txtPrice = new TextBox();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dvgItems).BeginInit();
             gbDeleteItem.SuspendLayout();
             gbInsertItem.SuspendLayout();
             SuspendLayout();
             // 
-            // dataGridView1
+            // dvgItems
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(25, 12);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(546, 306);
-            dataGridView1.TabIndex = 0;
+            dvgItems.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dvgItems.Location = new Point(44, 32);
+            dvgItems.Name = "dvgItems";
+            dvgItems.RowHeadersWidth = 62;
+            dvgItems.Size = new Size(546, 306);
+            dvgItems.TabIndex = 0;
             // 
             // txtMinPrice
             // 
@@ -89,6 +89,7 @@
             btnDelete.TabIndex = 5;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // btnUpdateDB
             // 
@@ -131,6 +132,22 @@
             gbInsertItem.TabStop = false;
             gbInsertItem.Text = "Insert item";
             // 
+            // txtPrice
+            // 
+            txtPrice.Location = new Point(349, 48);
+            txtPrice.Name = "txtPrice";
+            txtPrice.PlaceholderText = "Price";
+            txtPrice.Size = new Size(101, 31);
+            txtPrice.TabIndex = 10;
+            // 
+            // txtDescription
+            // 
+            txtDescription.Location = new Point(189, 48);
+            txtDescription.Name = "txtDescription";
+            txtDescription.PlaceholderText = "Description";
+            txtDescription.Size = new Size(100, 31);
+            txtDescription.TabIndex = 10;
+            // 
             // txtName
             // 
             txtName.Location = new Point(30, 48);
@@ -147,22 +164,7 @@
             btnInsert.TabIndex = 5;
             btnInsert.Text = "Insert";
             btnInsert.UseVisualStyleBackColor = true;
-            // 
-            // txtDescription
-            // 
-            txtDescription.Location = new Point(189, 48);
-            txtDescription.Name = "txtDescription";
-            txtDescription.PlaceholderText = "Description";
-            txtDescription.Size = new Size(100, 31);
-            txtDescription.TabIndex = 10;
-            // 
-            // txtPrice
-            // 
-            txtPrice.Location = new Point(349, 48);
-            txtPrice.Name = "txtPrice";
-            txtPrice.PlaceholderText = "Price";
-            txtPrice.Size = new Size(101, 31);
-            txtPrice.TabIndex = 10;
+            btnInsert.Click += btnInsert_Click;
             // 
             // Form1
             // 
@@ -175,10 +177,10 @@
             Controls.Add(btnCancelFilter);
             Controls.Add(btnFilter);
             Controls.Add(txtMinPrice);
-            Controls.Add(dataGridView1);
+            Controls.Add(dvgItems);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dvgItems).EndInit();
             gbDeleteItem.ResumeLayout(false);
             gbDeleteItem.PerformLayout();
             gbInsertItem.ResumeLayout(false);
@@ -189,7 +191,7 @@
 
         #endregion
 
-        private DataGridView dataGridView1;
+        private DataGridView dvgItems;
         private TextBox txtMinPrice;
         private Button btnFilter;
         private Button btnCancelFilter;

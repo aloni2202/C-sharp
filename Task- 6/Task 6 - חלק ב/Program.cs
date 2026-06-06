@@ -12,6 +12,8 @@ namespace Task_6___חלק_ב
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new Form1());
+
+
         }
     }
 }
