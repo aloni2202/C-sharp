@@ -23,12 +23,23 @@ namespace Task_6___חלק_ב
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            dataGridView.DataSource = db.RefreshTabel();
+            dataGridView.DataSource = db.RefreshTableFromSQL();
         }
 
         private void txtName_TextChanged(object sender, EventArgs e)
         {
-           
+
+        }
+
+        private void btnUpdateDB_Click(object sender, EventArgs e)
+        {
+
+            store.Update(db.RefreshTableFromSQL());
+        }
+
+        private void dataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
         }
     }
 }
