@@ -48,6 +48,7 @@
             // 
             // dataGridView
             // 
+            dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView.Location = new Point(35, 26);
             dataGridView.Margin = new Padding(2);
@@ -55,6 +56,7 @@
             dataGridView.RowHeadersWidth = 62;
             dataGridView.Size = new Size(437, 245);
             dataGridView.TabIndex = 0;
+            dataGridView.CellContentClick += dataGridView_CellContentClick;
             // 
             // txtMinPrice
             // 
@@ -105,6 +107,7 @@
             btnUpdateDB.TabIndex = 6;
             btnUpdateDB.Text = "Update Data Base";
             btnUpdateDB.UseVisualStyleBackColor = true;
+            btnUpdateDB.Click += btnUpdateDB_Click;
             // 
             // txtDelete
             // 
