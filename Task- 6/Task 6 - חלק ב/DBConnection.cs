@@ -15,35 +15,27 @@ namespace Task_6___חלק_ב
         SqlDataAdapter adtr;
         DataSet ds;
         DataTable dt;
-        int res;
+        
 
         public DBConnection()
         {
             con = new SqlConnection(strCon);
             ds = new DataSet();
+            
+        }
+
+        public DataTable RefreshTabel()
+        {
+            adtr = new SqlDataAdapter("SELECT * FROM TBitem", con);
+            adtr.Fill(ds, "TBi");
+            dt = ds.Tables["TBi"];
+            return dt;
         }
 
         public DataTable ItemsTable()
         {
-            try
-            {
-                con.Open();
-                strCmd = @"select * from TBitem";
-                cmd = new SqlCommand(strCmd, con);
-                ds = new DataSet();
-
-                return dt;
-
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-            finally
-            {
-
-            }
+           
+            return dt;
         }
 
         public DataTable FilterByAbovePrice(int price)
@@ -53,40 +45,37 @@ namespace Task_6___חלק_ב
 
         public DataTable InsertItem(Item item)
         {
-            ExcNonQ($"INSERT INTO TBitems" +
-                $"(Name ,Desscription , Price)" +
-                $"VALUES('{item.Name}' , '{item.Description}' , '{item.Price}')");
-            if (res == 0)
-            {
-                MessageBox.Show("ERROR ! ");
-            }
+            DataRow dr = dt.NewRow(); //למה לא רושם את הששם של הטבלה שאני יצרתי 
+            dr["Name"] = item.Name;
+            dr["Description"] = item.Description;
+            dr["Price"] = item.Price;
+            dt.Rows.Add(dr); //למה לא רושם את הששם של הטבלה שאני יצרתי 
+            RefreshTabel();
+
             return dt;
         }
 
         public DataTable DeleteItem(int code)
         {
-            ExcNonQ("DELETE TBitems" +
-                $"where code = '{code}'");
-            if (res == 0)
+            for (int i = 0; i < dt.Rows.Count; i++)
             {
-                MessageBox.Show("invalid value :(");
+                if (dt.Rows[i].RowState != DataRowState.Deleted && dt.Rows[i]["Code"] == code.ToString())
+                {
+                    dt.Rows[i].Delete();
+                }
             }
+       
             return dt;
         }
 
         public void UpdateDB(DataTable table)
         {
-            ExcNonQ($"UPDATE TBitems" +
-                $"SET Name = '{Data}'");
+            //עדכון לתוך למסד הנתונים של הSQL
+            new SqlCommandBuilder(adtr);
+            adtr.Update(dt);
+          
         }
 
-        public int ExcNonQ(string sqlComm)
-        {
-            con = new SqlConnection(strCon);
-            con.Open();
-            res = cmd.ExecuteNonQuery();
-            con.Close();
-            return res;
-        }
+  
     }
 }

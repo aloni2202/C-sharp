@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dvgItems = new DataGridView();
+            dataGridView = new DataGridView();
             txtMinPrice = new TextBox();
             btnFilter = new Button();
             btnCancelFilter = new Button();
@@ -41,51 +41,56 @@
             txtDescription = new TextBox();
             txtName = new TextBox();
             btnInsert = new Button();
-            ((System.ComponentModel.ISupportInitialize)dvgItems).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dataGridView).BeginInit();
             gbDeleteItem.SuspendLayout();
             gbInsertItem.SuspendLayout();
             SuspendLayout();
             // 
-            // dvgItems
+            // dataGridView
             // 
-            dvgItems.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dvgItems.Location = new Point(44, 32);
-            dvgItems.Name = "dvgItems";
-            dvgItems.RowHeadersWidth = 62;
-            dvgItems.Size = new Size(546, 306);
-            dvgItems.TabIndex = 0;
+            dataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView.Location = new Point(35, 26);
+            dataGridView.Margin = new Padding(2);
+            dataGridView.Name = "dataGridView";
+            dataGridView.RowHeadersWidth = 62;
+            dataGridView.Size = new Size(437, 245);
+            dataGridView.TabIndex = 0;
             // 
             // txtMinPrice
             // 
-            txtMinPrice.Location = new Point(677, 32);
+            txtMinPrice.Location = new Point(542, 26);
+            txtMinPrice.Margin = new Padding(2);
             txtMinPrice.Name = "txtMinPrice";
             txtMinPrice.PlaceholderText = "Above the price for filtering";
-            txtMinPrice.Size = new Size(235, 31);
+            txtMinPrice.Size = new Size(189, 27);
             txtMinPrice.TabIndex = 1;
             // 
             // btnFilter
             // 
-            btnFilter.Location = new Point(854, 95);
+            btnFilter.Location = new Point(683, 76);
+            btnFilter.Margin = new Padding(2);
             btnFilter.Name = "btnFilter";
-            btnFilter.Size = new Size(112, 62);
+            btnFilter.Size = new Size(90, 50);
             btnFilter.TabIndex = 2;
             btnFilter.Text = "Filter";
             btnFilter.UseVisualStyleBackColor = true;
             // 
             // btnCancelFilter
             // 
-            btnCancelFilter.Location = new Point(639, 95);
+            btnCancelFilter.Location = new Point(511, 76);
+            btnCancelFilter.Margin = new Padding(2);
             btnCancelFilter.Name = "btnCancelFilter";
-            btnCancelFilter.Size = new Size(112, 62);
+            btnCancelFilter.Size = new Size(90, 50);
             btnCancelFilter.TabIndex = 3;
             btnCancelFilter.Text = "Cancel Filter";
             btnCancelFilter.UseVisualStyleBackColor = true;
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(72, 110);
+            btnDelete.Location = new Point(58, 88);
+            btnDelete.Margin = new Padding(2);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(195, 34);
+            btnDelete.Size = new Size(156, 27);
             btnDelete.TabIndex = 5;
             btnDelete.Text = "Delete";
             btnDelete.UseVisualStyleBackColor = true;
@@ -93,28 +98,32 @@
             // 
             // btnUpdateDB
             // 
-            btnUpdateDB.Location = new Point(727, 231);
+            btnUpdateDB.Location = new Point(582, 185);
+            btnUpdateDB.Margin = new Padding(2);
             btnUpdateDB.Name = "btnUpdateDB";
-            btnUpdateDB.Size = new Size(185, 60);
+            btnUpdateDB.Size = new Size(148, 48);
             btnUpdateDB.TabIndex = 6;
             btnUpdateDB.Text = "Update Data Base";
             btnUpdateDB.UseVisualStyleBackColor = true;
             // 
             // txtDelete
             // 
-            txtDelete.Location = new Point(91, 48);
+            txtDelete.Location = new Point(73, 38);
+            txtDelete.Margin = new Padding(2);
             txtDelete.Name = "txtDelete";
             txtDelete.PlaceholderText = "Code";
-            txtDelete.Size = new Size(150, 31);
+            txtDelete.Size = new Size(121, 27);
             txtDelete.TabIndex = 7;
             // 
             // gbDeleteItem
             // 
             gbDeleteItem.Controls.Add(txtDelete);
             gbDeleteItem.Controls.Add(btnDelete);
-            gbDeleteItem.Location = new Point(44, 371);
+            gbDeleteItem.Location = new Point(35, 297);
+            gbDeleteItem.Margin = new Padding(2);
             gbDeleteItem.Name = "gbDeleteItem";
-            gbDeleteItem.Size = new Size(327, 163);
+            gbDeleteItem.Padding = new Padding(2);
+            gbDeleteItem.Size = new Size(262, 130);
             gbDeleteItem.TabIndex = 8;
             gbDeleteItem.TabStop = false;
             gbDeleteItem.Text = "Delete item";
@@ -125,42 +134,49 @@
             gbInsertItem.Controls.Add(txtDescription);
             gbInsertItem.Controls.Add(txtName);
             gbInsertItem.Controls.Add(btnInsert);
-            gbInsertItem.Location = new Point(462, 371);
+            gbInsertItem.Location = new Point(370, 297);
+            gbInsertItem.Margin = new Padding(2);
             gbInsertItem.Name = "gbInsertItem";
-            gbInsertItem.Size = new Size(504, 163);
+            gbInsertItem.Padding = new Padding(2);
+            gbInsertItem.Size = new Size(403, 130);
             gbInsertItem.TabIndex = 9;
             gbInsertItem.TabStop = false;
             gbInsertItem.Text = "Insert item";
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(349, 48);
+            txtPrice.Location = new Point(279, 38);
+            txtPrice.Margin = new Padding(2);
             txtPrice.Name = "txtPrice";
             txtPrice.PlaceholderText = "Price";
-            txtPrice.Size = new Size(101, 31);
+            txtPrice.Size = new Size(82, 27);
             txtPrice.TabIndex = 10;
             // 
             // txtDescription
             // 
-            txtDescription.Location = new Point(189, 48);
+            txtDescription.Location = new Point(151, 38);
+            txtDescription.Margin = new Padding(2);
             txtDescription.Name = "txtDescription";
             txtDescription.PlaceholderText = "Description";
-            txtDescription.Size = new Size(100, 31);
+            txtDescription.Size = new Size(81, 27);
             txtDescription.TabIndex = 10;
             // 
             // txtName
             // 
-            txtName.Location = new Point(30, 48);
+            txtName.Location = new Point(24, 38);
+            txtName.Margin = new Padding(2);
             txtName.Name = "txtName";
             txtName.PlaceholderText = "Name";
-            txtName.Size = new Size(100, 31);
+            txtName.Size = new Size(81, 27);
             txtName.TabIndex = 7;
+            txtName.TextChanged += txtName_TextChanged;
             // 
             // btnInsert
             // 
-            btnInsert.Location = new Point(96, 110);
+            btnInsert.Location = new Point(77, 88);
+            btnInsert.Margin = new Padding(2);
             btnInsert.Name = "btnInsert";
-            btnInsert.Size = new Size(326, 34);
+            btnInsert.Size = new Size(261, 27);
             btnInsert.TabIndex = 5;
             btnInsert.Text = "Insert";
             btnInsert.UseVisualStyleBackColor = true;
@@ -168,19 +184,21 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1011, 599);
+            ClientSize = new Size(809, 479);
             Controls.Add(gbInsertItem);
             Controls.Add(gbDeleteItem);
             Controls.Add(btnUpdateDB);
             Controls.Add(btnCancelFilter);
             Controls.Add(btnFilter);
             Controls.Add(txtMinPrice);
-            Controls.Add(dvgItems);
+            Controls.Add(dataGridView);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)dvgItems).EndInit();
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView).EndInit();
             gbDeleteItem.ResumeLayout(false);
             gbDeleteItem.PerformLayout();
             gbInsertItem.ResumeLayout(false);
@@ -191,7 +209,7 @@
 
         #endregion
 
-        private DataGridView dvgItems;
+        private DataGridView dataGridView;
         private TextBox txtMinPrice;
         private Button btnFilter;
         private Button btnCancelFilter;
