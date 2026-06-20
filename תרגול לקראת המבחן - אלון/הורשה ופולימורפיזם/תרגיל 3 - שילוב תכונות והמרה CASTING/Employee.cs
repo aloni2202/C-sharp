@@ -1,0 +1,23 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace תרגיל_3___שילוב_תכונות_והמרה_CASTING
+{
+    internal class Employee
+    {
+        public string name;
+        public int salary;
+
+        public Employee(string n , int s)
+        {
+            name = n ;
+            salary = s ;
+        }
+
+        public virtual void Work()
+        {
+            Console.WriteLine($"The worker {name} is working now");
+        }
+    }
+}

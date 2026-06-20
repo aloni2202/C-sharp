@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Xml.Linq;
+
+namespace תרגיל_3
+{
+    internal class Mannager:Employee
+    {
+        public int teamSize;
+
+        public Mannager(string n, int s, int t) : base(n, s)
+        {
+            teamSize = t;
+        }
+
+        public override void Work()
+        {
+            Console.WriteLine($"The mannager {name} is mannage now {teamSize} employees");
+        }
+
+        public void AssignBonus()
+        {
+            Console.WriteLine($"{name} can aproove bonuses");
+        }
+    }
+}

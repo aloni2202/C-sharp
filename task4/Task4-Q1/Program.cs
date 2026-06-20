@@ -9,11 +9,14 @@
                 new Dog{Name = "moshe" , Age = 10},
                 new Cat{Name = "Shoola" , Age = 9}
             };
-            foreach (var animal in animals)
+        }
+                public static void ProcessAnimals(Animal[] animals)
+        {
+            foreach (Animal animal in animals)
             {
+                if (animal == null) continue;
                 Console.WriteLine(animal.ToString());
-                Dog dog = animal as Dog;
-                if (dog != null)
+                if (animal is Dog dog)
                 {
                     dog.Bark();
                 }
@@ -22,10 +25,12 @@
                 {
                     cat.purr();
                 }
-                Console.WriteLine();
 
+                Console.WriteLine(new string('-', 30));
             }
+
+        }
         }
     }
-}
+
 

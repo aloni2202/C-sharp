@@ -4,16 +4,16 @@
     {
         static void Main(string[] args)
         {
-            Shape[] shape = new Shape[3];
-            shape[0] = new Shape("yellow");
-            shape[1] = new Circle("White");
-            shape[2] = new Rectangle("Green");
+            Shape s1 = new Shape("Yello");
+            Circle c1 = new Circle("Brown");
+            Rectangle r1 = new Rectangle("Blue");
 
-            for (int i = 0; i < shape.Length; i++)
+            Shape [] shapes = new Shape [3]{ s1 ,  c1  , r1};
+            foreach (Shape shape in shapes)
             {
                 Console.WriteLine();
-                shape.Drow(i);
+                shape.Draw();
             }
-}
+    }
 }
 }
