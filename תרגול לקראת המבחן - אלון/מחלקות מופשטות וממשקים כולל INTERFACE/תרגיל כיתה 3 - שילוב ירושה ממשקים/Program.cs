@@ -4,7 +4,25 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Appliance[] appliances = new Appliance[]
+            {
+                appliances[0] = new Oven{Brand = "LG" , Price = 1500},
+                appliances[1] = new WashingMachine{Brand = "BOCSH" , Price = 4000},
+                appliances[2] = new Oven{Brand = "samsung" , Price = 1999}
+             };
+
+            for (int i = 0; i < appliances.Length; i++)
+            {
+                Console.WriteLine($"{appliances[i].Brand} + {appliances[i].Price}");
+            }
+
+            Array.Sort( appliances );
+
+            Console.WriteLine("After sorting ..");
+            for (int i = 0; i < appliances.Length; i++)
+            {
+                Console.WriteLine($"{appliances[i].Brand} + {appliances[i].Price}");
+            }
         }
     }
 }
