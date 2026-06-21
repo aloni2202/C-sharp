@@ -25,13 +25,12 @@ namespace תרגיל_בית___שאלה_1_ניהול_חיות
                 {
                     dog.Bark();
                 }
-                Cat cat = animal as Cat;
-                if (cat != null)
+               
+                if (animal is Cat cat)
                 {
                     cat.Purr();
                 }
             }
         }
-
     }
 }
