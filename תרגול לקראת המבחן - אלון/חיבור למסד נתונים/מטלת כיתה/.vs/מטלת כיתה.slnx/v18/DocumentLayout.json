@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|c:\\users\\rotem\\onedrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\github-c#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|solutionrelative:knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|c:\\users\\rotem\\onedrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\github-c#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Knight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|c:\\users\\rotem\\onedrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\github-c#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\roundtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|solutionrelative:roundtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\DBConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DBConnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|c:\\users\\rotem\\onedrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\github-c#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{005235C7-7B39-ED49-0535-04BF92A7E3D0}|\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\RoundTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:RoundTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,52 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RoundTable.cs",
               "DocumentMoniker": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\RoundTable.cs",
               "RelativeDocumentMoniker": "RoundTable.cs",
               "ToolTip": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\RoundTable.cs",
               "RelativeToolTip": "RoundTable.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T08:50:04.436Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Knight.cs",
               "DocumentMoniker": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Knight.cs",
               "RelativeDocumentMoniker": "Knight.cs",
               "ToolTip": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Knight.cs",
               "RelativeToolTip": "Knight.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T08:18:45.493Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "DBConnection.cs",
               "DocumentMoniker": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\DBConnection.cs",
               "RelativeDocumentMoniker": "DBConnection.cs",
               "ToolTip": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\DBConnection.cs",
               "RelativeToolTip": "DBConnection.cs",
-              "ViewState": "AgIAAGYAAAAAAAAAAAAowHMAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T07:47:29.294Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\rotem\\OneDrive\\\u05DE\u05E1\u05DE\u05DB\u05D9\u05DD\\\u05E8\u05D5\u05E4\u05D9\u05DF \u05E9\u05E0\u05D4 \u05D1\\\u05E1\u05DE\u05E1\u05D8\u05E8 \u05D1\\\u05EA\u05DB\u05E0\u05D5\u05EA \u05DE\u05DB\u05D5\u05D5\u05DF \u05E2\u05E6\u05DE\u05D9\u05DD\\GitHub-C#\\\u05EA\u05E8\u05D2\u05D5\u05DC \u05DC\u05E7\u05E8\u05D0\u05EA \u05D4\u05DE\u05D1\u05D7\u05DF - \u05D0\u05DC\u05D5\u05DF\\\u05D7\u05D9\u05D1\u05D5\u05E8 \u05DC\u05DE\u05E1\u05D3 \u05E0\u05EA\u05D5\u05E0\u05D9\u05DD\\\u05DE\u05D8\u05DC\u05EA \u05DB\u05D9\u05EA\u05D4\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-22T07:35:28.518Z",
               "EditorCaption": ""

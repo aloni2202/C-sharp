@@ -30,6 +30,7 @@
         {
             btnLoop = new Button();
             btnCancel = new Button();
+            lblNum = new Label();
             SuspendLayout();
             // 
             // btnLoop
@@ -40,6 +41,7 @@
             btnLoop.TabIndex = 0;
             btnLoop.Text = "גלגל אותה";
             btnLoop.UseVisualStyleBackColor = true;
+            btnLoop.Click += btnLoop_Click;
             // 
             // btnCancel
             // 
@@ -49,22 +51,34 @@
             btnCancel.TabIndex = 2;
             btnCancel.Text = "סיום";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
+            // 
+            // lblNum
+            // 
+            lblNum.AutoSize = true;
+            lblNum.Location = new Point(364, 218);
+            lblNum.Name = "lblNum";
+            lblNum.Size = new Size(0, 25);
+            lblNum.TabIndex = 3;
             // 
             // RolletaForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(lblNum);
             Controls.Add(btnCancel);
             Controls.Add(btnLoop);
             Name = "RolletaForm";
             Text = "Rollete";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private Button btnLoop;
         private Button btnCancel;
+        private Label lblNum;
     }
 }

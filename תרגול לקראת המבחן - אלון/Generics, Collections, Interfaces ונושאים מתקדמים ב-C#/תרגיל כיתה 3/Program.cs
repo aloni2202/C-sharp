@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             int longestArray = 0;
+            int maxIndex = 0;
             Student[][] students = new Student[3][];
             students[0] = new Student[] {new Student("yossi" , 100) , new Student("michal", 90) , new Student("asaf", 70) };
             students[1] = new Student[] { new Student("yoni", 30), new Student("roni", 50)};
@@ -14,13 +15,14 @@
             {
                 if (students[i].Length > students[longestArray].Length)
                 {
-                    longestArray = i;
+                    longestArray = students[i].Length;
+                    maxIndex = i;
                 }
             }
             Console.WriteLine("The longest array is :");
             Console.WriteLine(longestArray);
 
-            Array.Sort(students[longestArray], new StudentNameComparer());
+            Array.Sort(students[maxIndex], new StudentNameComparer());
 
             foreach (Student student in students[longestArray])
             {

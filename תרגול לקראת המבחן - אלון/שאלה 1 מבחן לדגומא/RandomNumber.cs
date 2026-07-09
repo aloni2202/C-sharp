@@ -13,14 +13,14 @@ namespace שאלה_1_מבחן_לדגומא
             Number = number;
         }
 
-        public   RandomNumber()
+        public  RandomNumber()
         {
             Random rnd = new Random();
-            int num = rnd.Next(100) +1;
+           Number = rnd.Next(1,100);
         }
         public override string ToString()
         {
-            return 
+            return $" Number : {Number.ToString()} , ";
         }
     }
 }
